@@ -1,0 +1,17 @@
+Install rust on linux		-> curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+rustup --version			-> Show rust version
+rustup update				-> Update rust version
+rustup self uninstall		-> Uninstall rust
+
+vi [file name].rs					-> Create rust file
+rustc [file name].rs				-> Compile rust file
+rustc --explain E0384 [file name]	-> Show more information on rust complie error
+./[file name]						-> Execute rust executable file
+
+cargo new [folder name]						-> Create new cargo folder
+cargo build [folder name]					-> Build cargo binary package
+./[folder name]/target/debug/[folder name]	-> Execute rust executable file within cargo
+cargo run									-> Execute rust executable file within cargo
+cargo check									-> Check rust source code file
+
+rustfmt [file name].rs		-> Pretty format rust code
